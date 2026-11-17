@@ -1,3 +1,73 @@
+# Bravura
+
+Aplicação React criada com Create React App.
+
+**Stack:** React · Create React App · Tailwind CSS · JavaScript
+
+**Documentação:**
+- [Issue de organização](https://github.com/ClavioBahama/Bravura/issues/1) — revisão e sugestões
+
+---
+
+## 0. Pré-requisitos
+
+Node.js 18+ e npm.
+
+## 1. Instalação e Execução
+
+```powershell
+npm install   # instalar dependências
+npm start   # servidor de desenvolvimento em `http://localhost:3000`
+npm run build   # build de produção
+npm test   # testes (React Testing Library)
+```
+
+## 2. Estrutura do Projeto
+
+```text
+Bravura/
+├── src/              # componentes e estilos
+├── public/           # assets e index.html
+├── package.json
+└── README.md
+```
+
+## 3. Funcionalidades
+
+- Aplicação React inicializada com Create React App.
+- Testes com React Testing Library.
+- Suporte a Tailwind CSS (dependências de dev).
+
+## 4. Arquivos e pontos de entrada
+
+- `src/` — código-fonte React.
+- `public/index.html` — HTML base.
+
+## 5. Segurança
+
+Nenhuma credencial identificada no repositório.
+
+## 6. Problemas Comuns
+
+Create React App está descontinuado — considere migrar para Vite.
+Porta 3000 ocupada: use `$env:PORT=3001; npm start`.
+
+## 7. Observações (organização)
+
+> Revisão realizada em 17/11/2026 durante a padronização dos repositórios, inspirada no README do FreelaMZ.
+- README original é o padrão do Create React App.
+- Sugestão: substituir pelo README real do projeto e considerar migrar para Vite, pois o CRA está descontinuado.
+
+## 8. Licença
+
+Projeto pessoal/acadêmico. Verifique a licença de templates ou bibliotecas de terceiros antes de uso comercial.
+
+---
+
+## Anexo: README original
+
+> Conteúdo original preservado. As seções acima foram adicionadas na revisão de organização.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,12 +139,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
----
-
-## Observações (organização)
-
-> Revisão realizada em 17/11/2026 durante a padronização dos repositórios.
-O conteúdo original deste README foi preservado.
-
-- README é o padrão do Create React App.
-- Sugestão: substituir pelo README real do projeto e considerar migrar para Vite, pois o CRA está descontinuado.
