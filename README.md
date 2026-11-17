@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+
+## Observações (organização)
+
+> Revisão realizada em 17/11/2026 durante a padronização dos repositórios.
+O conteúdo original deste README foi preservado.
+
+- README é o padrão do Create React App.
+- Sugestão: substituir pelo README real do projeto e considerar migrar para Vite, pois o CRA está descontinuado.
